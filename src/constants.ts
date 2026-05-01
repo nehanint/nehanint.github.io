@@ -7,6 +7,8 @@ export interface Project {
   description: string;
   role: string[];
   image: string;
+  gallery: string[];
+  floorPlan?: string;
   details?: string[];
 }
 
@@ -24,6 +26,12 @@ export const PROJECTS: Project[] = [
       "Coordinated with suppliers and consultants"
     ],
     image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop",
+    gallery: [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1974&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1974&auto=format&fit=crop"
+    ],
+    floorPlan: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
     details: [
       "LED-lit wine shelving backdrop",
       "Banquette seating with feature lighting",
@@ -44,6 +52,12 @@ export const PROJECTS: Project[] = [
       "Coordinated with suppliers and consultants"
     ],
     image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=2070&auto=format&fit=crop",
+    gallery: [
+      "https://images.unsplash.com/photo-1498429152472-9a433d9ddf3b?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1596401057633-54a8fea8ce64?q=80&w=2070&auto=format&fit=crop"
+    ],
+    floorPlan: "https://images.unsplash.com/photo-1533626904905-cc52fd99285e?q=80&w=2070&auto=format&fit=crop",
     details: [
       "Curved LED-lit wine pigeonhole display",
       "Stacked wine barrels on metal racking",
@@ -65,6 +79,11 @@ export const PROJECTS: Project[] = [
       "Building permit support"
     ],
     image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=2070&auto=format&fit=crop",
+    gallery: [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2047&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?q=80&w=2070&auto=format&fit=crop"
+    ],
+    floorPlan: "https://images.unsplash.com/photo-1628544837893-9d16b3fecdba?q=80&w=2163&auto=format&fit=crop",
     details: [
       "Octagonal ceiling and planter feature wall",
       "Vibrant blue banquettes with mixed timber",
@@ -86,6 +105,11 @@ export const PROJECTS: Project[] = [
       "Building permit support"
     ],
     image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=2070&auto=format&fit=crop",
+    gallery: [
+      "https://images.unsplash.com/photo-1562184552-32b0051e5e04?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1507027682794-35e6c12ad5b4?q=80&w=1974&auto=format&fit=crop"
+    ],
+    floorPlan: "https://images.unsplash.com/photo-1614838614660-f65519db8e4d?q=80&w=2069&auto=format&fit=crop",
     details: [
       "Retail eyewear displays with integrated lighting",
       "Functional lab and sterile coordination spaces",
